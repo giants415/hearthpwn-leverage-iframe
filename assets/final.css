@@ -3,6 +3,34 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 30px;
-  color: #000000; }
+  color: #000000;
+  font-family: "Open Sans", sans-serif; }
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #222222; }
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #323232; }
+
+.progress-bold {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #8B231E; }
+
+.progress-reg {
+  font-size: 10px;
+  line-height: 14px;
+  color: #BF887C; }
+
+.btn {
+  width: 200px;
+  height: 50px; }
 
 /*# sourceMappingURL=final.css.map */
