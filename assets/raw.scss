@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:400,700");
 $main: 'Open Sans', sans-serif;
+$button: 'Source Sans Pro', sans-serif;
 
 body {
   font-family: $main;
@@ -47,9 +48,9 @@ button {
   height: 50px;
   border-radius: 3px;
   border-style: solid;
-  font-family: $main;
-  font-size: 14px;
-  font-weight: 900;
+  font-family: $button;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 27px;
   text-transform: uppercase;
   &.primary {
