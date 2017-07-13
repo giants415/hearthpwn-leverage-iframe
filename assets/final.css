@@ -18,6 +18,9 @@ h2 {
   line-height: 27px;
   color: #323232; }
 
+button {
+  margin-left: 30px; }
+
 .progress-bold {
   font-size: 10px;
   font-weight: 700;
@@ -31,6 +34,25 @@ h2 {
 
 .btn {
   width: 200px;
-  height: 50px; }
+  height: 50px;
+  border-radius: 3px;
+  border-style: solid;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 27px;
+  text-transform: uppercase; }
+  .btn.primary {
+    background-color: #8B231E;
+    color: white;
+    border: none; }
+  .btn.secondary {
+    background-color: white;
+    border-color: #8B231E;
+    color: #8B231E; }
+  .btn.disabled {
+    background-color: #D1D3D5;
+    color: #979797;
+    border: none; }
 
 /*# sourceMappingURL=final.css.map */
