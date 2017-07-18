@@ -21,7 +21,7 @@ h2 {
 button {
   margin-left: 30px; }
 
-#iframe-container {
+iframe {
   border: 2px solid black; }
 
 .progress-bold {
