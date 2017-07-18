@@ -1,6 +1,7 @@
 console.log('app.js connected');
 
 $(window).on('load', function(){
+  var counter = 0;
 
   var source = [
     './test/page1.html',
@@ -10,7 +11,6 @@ $(window).on('load', function(){
 
   $('.primary').click(function(){
     console.log('primary fired');
-    console.log(source[0]);
     $('#hearthpwn').attr('src', source[0]);
   });
 
