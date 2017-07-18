@@ -11,6 +11,8 @@ $(window).on('load', function(){
 
   $('.primary').click(function(){
     console.log('primary fired');
+    counter++;
+    console.log(counter);
     $('#hearthpwn').attr('src', source[0]);
   });
 
