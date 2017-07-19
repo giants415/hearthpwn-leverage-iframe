@@ -9,6 +9,10 @@ $(window).on('load', function(){
     './test/page2.html'
   ];
 
+//MOVE DISBALED BUTTON FUNCTIONALITY TO A NEW "START OVER" A TAG//
+
+
+//NEED TO CHANGE THIS SO THIS BUTTON APPEARS BEFORE PLATFORM IS CHOSEN//
   $('.disabled').click(function(){
     console.log('start over fired');
     counter = 0;
@@ -18,14 +22,14 @@ $(window).on('load', function(){
 
   $('.primary').click(function(){
     console.log('backwards fired');
-    counter--;
+    counter++;
     console.log(counter);
     $('#hearthpwn').attr('src', source[counter]);
   });
 
   $('.secondary').click(function(){
     console.log('forwards fired');
-    counter++;
+    counter--;
     console.log(counter);
     $('#hearthpwn').attr('src', source[counter]);
   });
