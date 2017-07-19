@@ -1,10 +1,6 @@
 console.log('app.js connected');
 
 $(window).on('load', function(){
-
-  $('#hearthpwn').css('height', $(window).height()+'px');
-
-
   var counter = 0;
 
   var source = [
@@ -13,6 +9,23 @@ $(window).on('load', function(){
     './pages/page2.html'
   ];
 
+  var android = $("input[name='android']");
+  var pc_ios = $("input[name='pc_ios']");
+
+  android.change(function(){
+    if(this.checked){
+      console.log('android');
+    }
+  });
+
+  pc_ios.change(function(){
+    if(this.checked){
+      console.log('pc_ios');
+    }
+  });
+
+
+  $('#hearthpwn').css('height', $(window).height()+'px');
 
 
 
