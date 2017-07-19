@@ -24,13 +24,14 @@ button {
 iframe {
   border: 2px solid black;
   width: 920px;
-  height: auto;
+  max-height: 100%;
   padding: 20px; }
 
 .platform_btn {
   border: 1px solid black;
   height: 160px;
-  width: 320px; }
+  width: 320px;
+  display: inline-block; }
 
 .progress-bold {
   font-size: 10px;
