@@ -24,7 +24,13 @@ button {
 iframe {
   border: 2px solid black;
   width: 920px;
+  height: auto;
   padding: 20px; }
+
+.platform_btn {
+  border: 1px solid black;
+  height: 160px;
+  width: 320px; }
 
 .progress-bold {
   font-size: 10px;
