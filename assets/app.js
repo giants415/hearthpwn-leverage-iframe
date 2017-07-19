@@ -1,13 +1,21 @@
 console.log('app.js connected');
 
 $(window).on('load', function(){
+
+  $('#hearthpwn').css('height', $(window).height()+'px');
+
+
   var counter = 0;
 
   var source = [
-    './test/test.html',
-    './test/page1.html',
-    './test/page2.html'
+    './pages/test.html',
+    './pages/page1.html',
+    './pages/page2.html'
   ];
+
+
+
+
 
 //MOVE DISBALED BUTTON FUNCTIONALITY TO A NEW "START OVER" A TAG//
 
