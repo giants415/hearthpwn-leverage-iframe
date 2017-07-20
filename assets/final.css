@@ -9,6 +9,7 @@ body {
 iframe {
   border: 2px solid black;
   position: relative;
+  height: 3000px;
   width: 920px;
   padding: 20px;
   background-color: #f3eddb; }
@@ -33,9 +34,6 @@ button {
 
 img {
   margin-bottom: 20px; }
-
-li {
-  list-style-type: decimal !important; }
 
 .platform {
   margin-top: 20px;
