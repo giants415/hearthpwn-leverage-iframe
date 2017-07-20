@@ -9,7 +9,7 @@ body {
 iframe {
   border: 2px solid black;
   position: relative;
-  height: 500px;
+  height: 800px;
   width: 920px;
   padding: 20px;
   background-color: #f3eddb; }
@@ -33,16 +33,19 @@ button {
   margin-top: 20px;
   display: flex;
   justify-content: space-around; }
+  .platform p {
+    text-align: center; }
   .platform div {
     background-color: #ECE3C7;
-    border: 2px solid black;
+    border: 2px solid #E5DAB3;
     height: 160px;
     width: 320px;
-    font-size: 14px; }
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
     .platform div input, .platform div label {
-      margin: auto; }
-    .platform div p {
-      text-align: center; }
+      display: block; }
 
 .progress-bold {
   font-size: 10px;

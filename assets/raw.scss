@@ -14,7 +14,7 @@ iframe {
   border: 2px solid black;
   position: relative;
   //REMOVE HEIGHT BEFORE PRODUCTION//
-  height: 500px;
+  height: 800px;
   width: 920px;
   padding: 20px;
   background-color: #f3eddb;
@@ -45,18 +45,24 @@ button {
   display: flex;
   justify-content: space-around;
   // align-items: center;
+  p {
+    text-align: center;
+    // order: 1;
+  }
   div{
     background-color: #ECE3C7;
-    border: 2px solid black;
+    border: 2px solid #E5DAB3;
     height: 160px;
     width: 320px;
     font-size: 14px;
-    // display: flex;
-    // justify-content: center;
-    // flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     // flex-direction: column;
     input, label {
-      margin: auto;
+      display: block;
+      // order: 2;
+      // margin: auto;
       // position: absolute;
       // align-self: flex-start;
       // display: block;
@@ -68,10 +74,6 @@ button {
     //   // align-self: center;
     //   // display: inline-block;
     // }
-    p {
-      text-align: center;
-      // display: block;
-    }
   }
 }
 
