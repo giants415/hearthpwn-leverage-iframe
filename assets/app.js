@@ -2,16 +2,16 @@ console.log('app.js connected');
 
 var android_ = {
   'step1':'./android/step1.html',
-  'step2':'./android/step2.html',
-  'step3':'./android/step3.html',
-  'step4':'./android/step4.html'
+  'step2':'./step2.html',
+  'step3':'./step3.html',
+  'step4':'./step4.html'
 };
 
 var ios_pc = {
   'step1':'./ios_pc/step1.html',
-  'step2':'./ios_pc/step2.html',
-  'step3':'./ios_pc/step3.html',
-  'step4':'./ios_pc/step4.html'
+  'step2':'./step2.html',
+  'step3':'./step3.html',
+  'step4':'./step4.html'
 };
 
 
