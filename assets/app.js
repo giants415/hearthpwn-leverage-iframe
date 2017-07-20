@@ -1,31 +1,43 @@
 console.log('app.js connected');
 
+var source = {
+  'test':'./test.html',
+  'page1':'./page1.html',
+  'page2':'./page2.html'
+};
+
+var counter = 0;
+
+//created var android below so these are commented out//
+// var android = $("input[name='android']");
+// var pc_ios = $("input[name='pc_ios']");
+
+var android = function(){
+  location.href = source.page1;
+}
+
+var pc_ios = function() {
+  location.href = source.page2;
+}
+
 $(window).on('load', function(){
-  var counter = 0;
 
-  var source = [
-    './pages/test.html',
-    './pages/page1.html',
-    './pages/page2.html'
-  ];
+  // android.change(function(){
+  //   if(this.checked){
+  //     console.log('android');
+  //     location.href = source.page1;
+  //   }
+  // });
 
-  var android = $("input[name='android']");
-  var pc_ios = $("input[name='pc_ios']");
+  // pc_ios.change(function(){
+  //   if(this.checked){
+  //     console.log('pc_ios');
+  //     location.href = source.page2;
+  //   }
+  // });
 
-  android.change(function(){
-    if(this.checked){
-      console.log('android');
-    }
-  });
-
-  pc_ios.change(function(){
-    if(this.checked){
-      console.log('pc_ios');
-    }
-  });
-
-
-  $('#hearthpwn').css('height', $(window).height()+'px');
+  //!!!!!!!! ENABLE FOR FINAL, DISABLED BC FIXED HEIGHT IS EASIER TO SEE !!!!!!!!//
+  // $('#hearthpwn').css('height', $(window).height()+'px');
 
 
 
@@ -42,17 +54,26 @@ $(window).on('load', function(){
   });
 
   $('.primary').click(function(){
-    console.log('backwards fired');
-    counter++;
-    console.log(counter);
-    $('#hearthpwn').attr('src', source[counter]);
+
   });
 
   $('.secondary').click(function(){
-    console.log('forwards fired');
+    console.log('previous fired');
     counter--;
     console.log(counter);
-    $('#hearthpwn').attr('src', source[counter]);
+    // $('#hearthpwn').attr('src', source[counter]);
   });
+
+  // foo = function() {
+  //   console.log('yurp');
+  //   /*
+  //   var frame = $('#hearthpwn');
+  //   //var frame = $('iframe[id="hearthpwn"]');
+  //   var frame = document.getElementById('hearthpwn');
+  //   console.log(frame);
+  //   //frame.attr('src', source.page1);
+  //   frame.setAttribute('src',source.page1);*/
+  //   location.href = source.page1;
+  // }
 
 });
