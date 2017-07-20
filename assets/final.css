@@ -113,4 +113,14 @@ img {
   display: block;
   margin: 0 auto; }
 
+.field {
+  display: block;
+  margin: auto;
+  background: white;
+  height: 30px;
+  width: 300px;
+  border: 1px grey solid; }
+  .field span {
+    text-align: center; }
+
 /*# sourceMappingURL=final.css.map */
