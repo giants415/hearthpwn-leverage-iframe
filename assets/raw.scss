@@ -36,8 +36,21 @@ h2 {
   color: #323232;
 }
 
+span {
+  // margin: 20px 0;
+  display: block;
+}
+
 button {
   margin-left: 30px;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+li {
+  list-style-type: decimal !important;
 }
 
 .platform{
@@ -105,12 +118,17 @@ button {
     color: white;
     border: none;
     &.allsteps{
+      float: right;
       width: 184px;
-      height: 24px;
+      height: 30px;
+      font-size: 12px;
+      text-transform: none;
+      margin-bottom: 20px;
+      font-weight: 200;
     }
   }
   &.secondary {
-    background-color: white;
+    background-color: transparent;
     border-color: #8B231E;
     color: #8B231E;
   }
@@ -118,5 +136,11 @@ button {
     background-color: #D1D3D5;
     color: #979797;
     border: none;
+  }
+}
+
+.my_list {
+  p {
+    text-indent: 25px;
   }
 }

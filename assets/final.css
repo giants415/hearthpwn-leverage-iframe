@@ -26,8 +26,17 @@ h2 {
   line-height: 27px;
   color: #323232; }
 
+span {
+  display: block; }
+
 button {
   margin-left: 30px; }
+
+img {
+  margin-bottom: 20px; }
+
+li {
+  list-style-type: decimal !important; }
 
 .platform {
   margin-top: 20px;
@@ -73,15 +82,23 @@ button {
     color: white;
     border: none; }
     .btn.primary.allsteps {
+      float: right;
       width: 184px;
-      height: 24px; }
+      height: 30px;
+      font-size: 12px;
+      text-transform: none;
+      margin-bottom: 20px;
+      font-weight: 200; }
   .btn.secondary {
-    background-color: white;
+    background-color: transparent;
     border-color: #8B231E;
     color: #8B231E; }
   .btn.disabled {
     background-color: #D1D3D5;
     color: #979797;
     border: none; }
+
+.my_list p {
+  text-indent: 25px; }
 
 /*# sourceMappingURL=final.css.map */
