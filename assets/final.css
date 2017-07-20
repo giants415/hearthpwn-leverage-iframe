@@ -9,7 +9,7 @@ body {
 iframe {
   border: 2px solid black;
   position: relative;
-  height: 3000px;
+  height: 2000px;
   width: 920px;
   padding: 20px;
   background-color: #f3eddb; }
