@@ -1,40 +1,61 @@
 console.log('app.js connected');
 
-var android = {
-  'page1':'./page1.html',
-  'page2':'./page2.html',
-  'page3':'./page3.html',
-  'page4':'./page4.html'
+var android_ = {
+  'step1':'./android/step1.html',
+  'step2':'./android/step2.html',
+  'step3':'./android/step3.html',
+  'step4':'./android/step4.html'
 };
 
 var ios_pc = {
-  
+  'step1':'./ios_pc/step1.html',
+  'step2':'./ios_pc/step2.html',
+  'step3':'./ios_pc/step3.html',
+  'step4':'./ios_pc/step4.html'
 };
 
-var android = function(){
-  location.href = source.page1;
+
+//    ANDROID ENTRY FROM PLATFORM    //
+var androidstep1 = function(){
+  location.href = android_.step1;
 }
 
-var pc_ios = function() {
-  location.href = source.page2;
+var adroidstep2 = function() {
+  location.href = android_.step2;
 }
 
-var nextpage = function() {
-  location.href = source.page3;
+var androidstep3 = function() {
+  location.href = android_.step3;
 }
 
-var prevpage = function() {
-  location.href = source.page2;
+var androidstep4 = function(){
+  location.href = android_.step4;
 }
 
-var nextpage2 = function(){
-  location.href = source.page4;
+var androidstep5 = function(){
+  location.href = android_.step5;
 }
 
-var prevpage2 = function(){
-  location.href = source.page1;
+//    IOS ENTRY FROM PLATFORM    //
+var pc_ios1 = function() {
+  // console.log('ios_pc');
+  location.href = ios_pc.step1;
 }
 
+var pc_ios2 = function(){
+  location.href = ios_pc.step2;
+}
+
+var pc_ios3 = function(){
+  location.href = ios_pc.step3;
+}
+var pc_ios4 = function(){
+  location.href = ios_pc.step4;
+}
+
+var pc_ios5 = function(){
+  location.href = ios_pc.step5;
+}
 
 $(window).on('load', function(){
   //!!!!!!!! ENABLE FOR FINAL, DISABLED BC FIXED HEIGHT IS EASIER TO SEE !!!!!!!!//
