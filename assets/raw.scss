@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Source+Sans+Pro:400,700");
 $main: 'Open Sans', sans-serif;
 $button: 'Source Sans Pro', sans-serif;
 
@@ -36,9 +36,21 @@ h2 {
   color: #323232;
 }
 
+a {
+  text-align: center;
+  color: #8B231E;
+  font-family: $main;
+  font-weight: 200;
+  margin: 20px 0;
+}
+
 span {
   // margin: 20px 0;
   display: block;
+  font-weight: 400;
+  strong {
+    font-weight: bold;
+  }
 }
 
 button {
