@@ -7,11 +7,7 @@ var source = {
   'page4':'./page4.html'
 };
 
-var counter = 0;
-
-//created var android below so these are commented out//
-// var android = $("input[name='android']");
-// var pc_ios = $("input[name='pc_ios']");
+var
 
 var android = function(){
   location.href = source.page1;
@@ -39,21 +35,6 @@ var prevpage2 = function(){
 
 
 $(window).on('load', function(){
-
-  // android.change(function(){
-  //   if(this.checked){
-  //     console.log('android');
-  //     location.href = source.page1;
-  //   }
-  // });
-
-  // pc_ios.change(function(){
-  //   if(this.checked){
-  //     console.log('pc_ios');
-  //     location.href = source.page2;
-  //   }
-  // });
-
   //!!!!!!!! ENABLE FOR FINAL, DISABLED BC FIXED HEIGHT IS EASIER TO SEE !!!!!!!!//
   // $('#hearthpwn').css('height', $(window).height()+'px');
 
@@ -83,16 +64,5 @@ $(window).on('load', function(){
   });
 
 
-  // foo = function() {
-  //   console.log('yurp');
-  //   /*
-  //   var frame = $('#hearthpwn');
-  //   //var frame = $('iframe[id="hearthpwn"]');
-  //   var frame = document.getElementById('hearthpwn');
-  //   console.log(frame);
-  //   //frame.attr('src', source.page1);
-  //   frame.setAttribute('src',source.page1);*/
-  //   location.href = source.page1;
-  // }
 
 });
