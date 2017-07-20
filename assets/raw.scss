@@ -10,6 +10,16 @@ body {
   font-family: $main;
 }
 
+iframe {
+  border: 2px solid black;
+  position: relative;
+  //REMOVE HEIGHT BEFORE PRODUCTION//
+  height: 500px;
+  width: 920px;
+  padding: 20px;
+  background-color: #f3eddb;
+}
+
 h1 {
   font-size: 24px;
   //testing the below font weight for "semibold"//
@@ -30,20 +40,39 @@ button {
   margin-left: 30px;
 }
 
-iframe {
-  border: 2px solid black;
-  position: relative;
-  //REMOVE HEIGHT BEFORE PRODUCTION//
-  height: 500px;
-  width: 920px;
-  padding: 20px;
-}
-
-.platform_btn{
-  border: 1px solid black;
-  height: 160px;
-  width: 320px;
-  display: inline-block;
+.platform{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  // align-items: center;
+  div{
+    background-color: #ECE3C7;
+    border: 2px solid black;
+    height: 160px;
+    width: 320px;
+    font-size: 14px;
+    // display: flex;
+    // justify-content: center;
+    // flex-wrap: wrap;
+    // flex-direction: column;
+    input, label {
+      margin: auto;
+      // position: absolute;
+      // align-self: flex-start;
+      // display: block;
+      // align-self: baseline;
+    }
+    // img{
+    //   // position: relative;
+    //   // order: 3;
+    //   // align-self: center;
+    //   // display: inline-block;
+    // }
+    p {
+      text-align: center;
+      // display: block;
+    }
+  }
 }
 
 .progress-bold {

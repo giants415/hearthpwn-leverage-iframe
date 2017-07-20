@@ -6,6 +6,14 @@ body {
   color: #000000;
   font-family: "Open Sans", sans-serif; }
 
+iframe {
+  border: 2px solid black;
+  position: relative;
+  height: 500px;
+  width: 920px;
+  padding: 20px;
+  background-color: #f3eddb; }
+
 h1 {
   font-size: 24px;
   font-weight: 600;
@@ -21,18 +29,20 @@ h2 {
 button {
   margin-left: 30px; }
 
-iframe {
-  border: 2px solid black;
-  position: relative;
-  height: 500px;
-  width: 920px;
-  padding: 20px; }
-
-.platform_btn {
-  border: 1px solid black;
-  height: 160px;
-  width: 320px;
-  display: inline-block; }
+.platform {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around; }
+  .platform div {
+    background-color: #ECE3C7;
+    border: 2px solid black;
+    height: 160px;
+    width: 320px;
+    font-size: 14px; }
+    .platform div input, .platform div label {
+      margin: auto; }
+    .platform div p {
+      text-align: center; }
 
 .progress-bold {
   font-size: 10px;
