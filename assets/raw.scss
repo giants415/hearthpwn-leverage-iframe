@@ -104,6 +104,10 @@ button {
     background-color: #8B231E;
     color: white;
     border: none;
+    &.allsteps{
+      width: 184px;
+      height: 24px;
+    }
   }
   &.secondary {
     background-color: white;

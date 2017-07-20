@@ -72,6 +72,9 @@ button {
     background-color: #8B231E;
     color: white;
     border: none; }
+    .btn.primary.allsteps {
+      width: 184px;
+      height: 24px; }
   .btn.secondary {
     background-color: white;
     border-color: #8B231E;
