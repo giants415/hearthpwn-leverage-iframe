@@ -59,7 +59,7 @@ var pc_ios5 = function(){
 
 $(window).on('load', function(){
   //!!!!!!!! ENABLE FOR FINAL, DISABLED BC FIXED HEIGHT IS EASIER TO SEE !!!!!!!!//
-  // $('#hearthpwn').css('height', $(window).height()+'px');
+  $('#hearthpwn').css('height', $(window).height()+'px');
 
   //MOVE DISBALED BUTTON FUNCTIONALITY TO A NEW "START OVER" A TAG//
 
