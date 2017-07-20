@@ -1,13 +1,15 @@
 console.log('app.js connected');
 
-var source = {
+var android = {
   'page1':'./page1.html',
   'page2':'./page2.html',
   'page3':'./page3.html',
   'page4':'./page4.html'
 };
 
-var
+var ios_pc = {
+  
+};
 
 var android = function(){
   location.href = source.page1;
