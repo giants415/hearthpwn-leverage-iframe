@@ -4,7 +4,8 @@ var android_ = {
   'step1':'./android/step1.html',
   'step2':'./step2.html',
   'step3':'./step3.html',
-  'step4':'./step4.html'
+  'step4':'./step4.html',
+  'step5':'./step5.html'
 };
 
 var ios_pc = {
