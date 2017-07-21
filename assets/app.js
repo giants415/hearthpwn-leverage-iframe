@@ -20,7 +20,7 @@ var androidstep1 = function(){
   location.href = android_.step1;
 }
 
-var adroidstep2 = function() {
+var androidstep2 = function() {
   location.href = android_.step2;
 }
 
