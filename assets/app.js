@@ -12,7 +12,8 @@ var ios_pc = {
   'step1':'./ios_pc/step1.html',
   'step2':'./step2.html',
   'step3':'./step3.html',
-  'step4':'./step4.html'
+  'step4':'./step4.html',
+  'step5':'./step5.html'
 };
 
 
