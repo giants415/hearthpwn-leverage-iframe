@@ -85,6 +85,10 @@ var pc_ios5 = function(){
   location.href = ios_pc.step5;
 }
 
+var all_i_p = function(){
+  location.href = ios_pc.all;
+}
+
 var start_over = function(){
   location.href = '../platform.html';
 }
