@@ -89,6 +89,10 @@ var start_over = function(){
   location.href = '../platform.html';
 }
 
+var copy = function(){
+  document.execCommand("copy");
+}
+
 
 // $(window).on('load', function(){
   //!!!!!!!! ENABLE FOR FINAL, DISABLED BC FIXED HEIGHT IS EASIER TO SEE !!!!!!!!//
