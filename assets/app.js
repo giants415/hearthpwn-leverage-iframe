@@ -61,6 +61,10 @@ var androidstep5 = function(){
   location.href = android_.step5;
 }
 
+var all_a = function(){
+  location.href = android_.all;
+}
+
 //    IOS ENTRY FROM PLATFORM    //
 var pc_ios1 = function() {
   location.href = ios_pc.step1;
