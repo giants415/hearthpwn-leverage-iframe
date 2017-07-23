@@ -1,10 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Source+Sans+Pro:400,700");
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 30px;
-  color: #000000;
-  font-family: "Open Sans", sans-serif; }
+  color: #000000; }
+
+iframe {
+  border: 2px solid black;
+  position: relative;
+  height: 700px;
+  width: 920px;
+  padding: 20px;
+  background-color: #f3eddb; }
 
 h1 {
   font-size: 24px;
@@ -18,8 +25,53 @@ h2 {
   line-height: 27px;
   color: #323232; }
 
+a {
+  margin: 0 auto;
+  color: #8B231E;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  margin: 20px 0; }
+
+span {
+  display: block;
+  font-weight: 400; }
+  span strong {
+    font-weight: bold; }
+
 button {
   margin-left: 30px; }
+
+img {
+  margin-bottom: 20px; }
+
+.center {
+  text-align: center; }
+
+.platform {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around; }
+  .platform p {
+    text-align: center; }
+  .platform div {
+    background-color: #ECE3C7;
+    border: 2px solid #E5DAB3;
+    height: 160px;
+    width: 320px;
+    font-size: 14px; }
+    .platform div input {
+      display: block;
+      position: relative;
+      left: 20px;
+      top: 20px; }
+    .platform div img[name="android"] {
+      position: relative;
+      bottom: 35px;
+      left: 115px; }
+    .platform div img[name="pc_ios"] {
+      position: relative;
+      bottom: 20px;
+      left: 65px; }
 
 .progress-bold {
   font-size: 10px;
@@ -41,18 +93,52 @@ button {
   font-size: 16px;
   font-weight: 700;
   line-height: 27px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  float: right; }
   .btn.primary {
     background-color: #8B231E;
     color: white;
     border: none; }
+    .btn.primary.allsteps {
+      float: right;
+      width: 184px;
+      height: 30px;
+      font-size: 12px;
+      text-transform: none;
+      margin-bottom: 20px;
+      font-weight: 200; }
   .btn.secondary {
-    background-color: white;
+    background-color: transparent;
     border-color: #8B231E;
     color: #8B231E; }
   .btn.disabled {
     background-color: #D1D3D5;
     color: #979797;
     border: none; }
+
+.my_list p {
+  text-indent: 25px; }
+
+.step_img {
+  display: block;
+  margin: 0 auto; }
+
+.field {
+  display: block;
+  margin: auto;
+  background: white;
+  height: 30px;
+  width: 300px;
+  border: 1px grey solid; }
+  .field span {
+    text-align: left;
+    padding-left: 5px; }
+  .field button {
+    position: relative;
+    height: 30px;
+    width: 100px;
+    bottom: 30px;
+    left: 110px;
+    font-weight: 400; }
 
 /*# sourceMappingURL=final.css.map */

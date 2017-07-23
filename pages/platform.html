@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script src="../assets/app.js"></script>
+
+    <link rel="stylesheet" href="../assets/cssreset.css">
+    <link rel="stylesheet" href="../assets/final.css" />
+  </head>
+  <body>
+
+    <h1>Ready to get started? Tell us which device you play on most.</h1>
+    <p>Your instructions will differ depending on which type of device you play on.</p>
+    <br />
+    <p>
+      This one-time process should take about 10-15 minutes (assuming you already have an Amazon and Blizzard account).
+      After that, you will be able to complete purchases just as quickly as you normally would through Hearthstone.
+    </p>
+
+    <div class="platform">
+      <div>
+        <p>Android device (phone, tablet...)</p>
+        <br />
+        <input type="checkbox" onchange="androidstep1()" />
+        <img name="android" src="../assets/icons/android_robot.png"/>
+      </div>
+      <div>
+        <p>PC or iOS device (phone, tablet...)</p>
+        <br />
+        <input type="checkbox" onchange="pc_ios1()" />
+        <img name="pc_ios" src="../assets/icons/PC iOS icons.png"/ />
+      </div>
+    </div>
+
+    <br />
+
+  </body>
+</html>
