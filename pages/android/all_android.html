@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../assets/final.css" />
   </head>
   <body>
+    <button class="btn primary allsteps" onclick="start_over()">Go back to step-by-step wizard</button>
     <h1>Step 1:</h1>
     <h1>Uninstall the Google Play version of Hearthstone from your Android device.</h1>
     <br />
@@ -53,7 +54,9 @@
     </span>
 
     <br />
-    <a href="./step3.html">I already have Amazon Underground, skip</a>
+    <div class="center">
+      <a href="./step3.html">I already have Amazon Underground, skip</a>
+    </div>
     <br />
 
     <h2>Preparing to download the Amazon Appstore</h2>
@@ -84,7 +87,10 @@
     </span>
     <br />
 
-    <div class="field"><span>http://bit.ly/getcoins101</span></div> <!--****PUT BUTTON TO COPY HERE****-->
+    <div class="field">
+      <span>http://bit.ly/getcoins101</span>
+      <button class="btn primary" onclick="copy('http://bit.ly/getcoins101')">Copy</button>
+    </div>
 
     <br />
     <span>

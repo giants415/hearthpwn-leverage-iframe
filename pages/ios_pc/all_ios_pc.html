@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../assets/final.css" />
   </head>
   <body>
+    <button class="btn primary allsteps" onclick="start_over()">Go back to step-by-step wizard</button>
     <h1>Step 1:</h1>
     <h1>Playing on iOS or PC? Download an Android emulator.</h1>
     <br />
@@ -39,7 +40,10 @@
         through a lot of memory, so be sure to close all other open apps
       </p>
     </div>
-    <div class="field"><span>https://www.bignox.com/</span></div> <!--****PUT BUTTON TO COPY HERE****-->
+    <div class="field">
+      <span>https://www.bignox.com/</span>
+      <button class="btn primary" onclick="copy('https://www.bignox.com/')">Copy</button>
+    </div>
     <img class="step_img" src="../../assets/laptop/Step 1.png"/>
           <hr />
 
@@ -56,7 +60,10 @@
       the browser within the emulator.
     </span>
     <br />
-    <div class="field"><span>http://bit.ly/getcoins102</span></div> <!--****PUT BUTTON TO COPY HERE****-->
+    <div class="field">
+      <span>http://bit.ly/getcoins102</span>
+      <button class="btn primary" onclick="copy('http://bit.ly/getcoins102')">Copy</button>
+    </div>
     <br />
     <img class="step_img" src="../../assets/laptop/Step 2.png"/>
     <h2>How to Download and Install the Amazon Appstore</h2>
