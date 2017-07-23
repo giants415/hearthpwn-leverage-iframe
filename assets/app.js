@@ -20,12 +20,6 @@ var ios_pc = {
 
 
 //    ANDROID ENTRY FROM PLATFORM    //
-// function changePageTo(pageInfo) {
-//     location.href = pageInfo.href;
-//     // console.log(window.parent.document.getElementByID('hearthpwn').style.height);
-//     // window.parent.document.getElementByID('hearthpwn').style.height = html.height;
-//     // window.parent.doucment.getElementByID('container').height = '1000px';
-// }
 var androidstep1 = function(){
   location.href = android_.step1;
 }
@@ -53,7 +47,6 @@ var androidstep5 = function(){
 var all_a = function(){
   location.href = android_.all;
 }
-
 
 
 
@@ -98,38 +91,3 @@ var copy = function(string) {
   document.execCommand("copy");
   document.body.removeChild(aux);
 };
-
-
-// $(window).on('load', function(){
-  //!!!!!!!! ENABLE FOR FINAL, DISABLED BC FIXED HEIGHT IS EASIER TO SEE !!!!!!!!//
-  // console.log('load function trigger')
-  // $('#hearthpwn').css('height', $(window).height()+'px');
-//
-//   //MOVE DISBALED BUTTON FUNCTIONALITY TO A NEW "START OVER" A TAG//
-//
-//
-//   //NEED TO CHANGE THIS SO THIS BUTTON APPEARS BEFORE PLATFORM IS CHOSEN//
-//   $('.disabled').click(function(){
-//     // console.log('start over fired');
-//     // counter = 0;
-//     // console.log(counter);
-//     // $('#hearthpwn').attr('src', source[0]);
-//   });
-//
-//   $('.primary').click(function(){
-//     // console.log('next fired');
-//     // counter++;
-//     // console.log(counter);
-//     // location.href = source[counter];
-//   });
-//
-//   $('.secondary').click(function(){
-//     // console.log('previous fired');
-//     // counter--;
-//     // console.log(counter);
-//     // $('#hearthpwn').attr('src', source[counter]);
-//   });
-//
-//
-//
-// });
