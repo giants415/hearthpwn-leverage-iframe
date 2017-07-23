@@ -12,7 +12,6 @@ body {
 iframe {
   border: 2px solid black;
   position: relative;
-  //REMOVE HEIGHT BEFORE PRODUCTION//
   height: 2500px;
   width: 920px;
   padding: 20px;
@@ -21,7 +20,6 @@ iframe {
 
 h1 {
   font-size: 24px;
-  //testing the below font weight for "semibold"//
   font-weight: 600;
   line-height: 33px;
   color: #222222;
@@ -29,14 +27,13 @@ h1 {
 
 h2 {
   font-size: 20px;
-  //testing the below for font weight "bold"//
   font-weight: 700;
   line-height: 27px;
   color: #323232;
 }
 
 a {
-  text-align: center;
+  margin: 0 auto;
   color: #8B231E;
   font-family: $main;
   font-weight: 200;
@@ -44,7 +41,6 @@ a {
 }
 
 span {
-  // margin: 20px 0;
   display: block;
   font-weight: 400;
   strong {
@@ -58,6 +54,10 @@ button {
 
 img {
   margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
 }
 
 .platform{
@@ -166,6 +166,15 @@ img {
   width: 300px;
   border: 1px grey solid;
   span {
-    text-align: center;
+    text-align: left;
+    padding-left: 5px;
+  }
+  button{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    bottom: 30px;
+    left: 110px;
+    font-weight: 400;
   }
 }
