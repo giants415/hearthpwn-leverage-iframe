@@ -12,7 +12,7 @@ body {
 iframe {
   border: 2px solid black;
   position: relative;
-  height: 2500px;
+  height: 700px;
   width: 920px;
   padding: 20px;
   background-color: #f3eddb;
@@ -64,10 +64,8 @@ img {
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
-  // align-items: center;
   p {
     text-align: center;
-    // order: 1;
   }
   div{
     background-color: #ECE3C7;
@@ -75,25 +73,22 @@ img {
     height: 160px;
     width: 320px;
     font-size: 14px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    // flex-direction: column;
-    input, label {
+    input {
       display: block;
-      // order: 2;
-      // margin: auto;
-      // position: absolute;
-      // align-self: flex-start;
-      // display: block;
-      // align-self: baseline;
+      position: relative;
+      left: 20px;
+      top: 20px;
     }
-    // img{
-    //   // position: relative;
-    //   // order: 3;
-    //   // align-self: center;
-    //   // display: inline-block;
-    // }
+    img[name="android"] {
+      position: relative;
+      bottom: 35px;
+      left: 115px;
+    }
+    img[name="pc_ios"]{
+      position: relative;
+      bottom: 20px;
+      left:65px;
+    }
   }
 }
 
