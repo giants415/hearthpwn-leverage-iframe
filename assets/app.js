@@ -1,5 +1,3 @@
-console.log('app.js connected');
-
 var android_ = {
   'step1':'./android/step1.html',
   'step2':'./step2.html',
