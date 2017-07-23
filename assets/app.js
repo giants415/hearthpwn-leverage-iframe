@@ -89,9 +89,15 @@ var start_over = function(){
   location.href = '../platform.html';
 }
 
-var copy = function(){
+var copy = function(string) {
+  var url = string;
+  var aux = document.createElement("input");
+  aux.setAttribute("value", url);
+  document.body.appendChild(aux);
+  aux.select();
   document.execCommand("copy");
-}
+  document.body.removeChild(aux);
+};
 
 
 // $(window).on('load', function(){
