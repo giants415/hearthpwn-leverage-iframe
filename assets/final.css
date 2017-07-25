@@ -45,8 +45,12 @@ img {
   margin-bottom: 20px; }
 
 input[type=checkbox] {
-  width: 18px;
-  height: 18px; }
+  -webkit-appearance: none;
+  width: 25px;
+  height: 25px;
+  background: white;
+  border: 2px solid #4A4A4A;
+  border-radius: 2px; }
 
 .center {
   text-align: center; }
