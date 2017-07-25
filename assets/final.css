@@ -71,14 +71,14 @@ input[type=checkbox] {
       display: block;
       position: relative;
       left: 20px;
-      top: 20px; }
+      top: 10px; }
     .platform div img[name="android"] {
       position: relative;
-      bottom: 35px;
+      bottom: 50px;
       left: 115px; }
     .platform div img[name="pc_ios"] {
       position: relative;
-      bottom: 20px;
+      bottom: 40px;
       left: 65px; }
 
 .progress-bold {
