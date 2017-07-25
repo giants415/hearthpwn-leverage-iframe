@@ -44,6 +44,14 @@ button {
 img {
   margin-bottom: 20px; }
 
+input[type=checkbox] {
+  -webkit-appearance: none;
+  width: 25px;
+  height: 25px;
+  background: white;
+  border: 2px solid #4A4A4A;
+  border-radius: 2px; }
+
 .center {
   text-align: center; }
 
@@ -63,14 +71,14 @@ img {
       display: block;
       position: relative;
       left: 20px;
-      top: 20px; }
+      top: 10px; }
     .platform div img[name="android"] {
       position: relative;
-      bottom: 35px;
+      bottom: 50px;
       left: 115px; }
     .platform div img[name="pc_ios"] {
       position: relative;
-      bottom: 20px;
+      bottom: 40px;
       left: 65px; }
 
 .progress-bold {
@@ -118,6 +126,8 @@ img {
 
 .my_list p {
   text-indent: 25px; }
+.my_list.special {
+  margin-bottom: 15px; }
 
 .step_img {
   display: block;
