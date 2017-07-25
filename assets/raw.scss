@@ -155,6 +155,9 @@ input[type=checkbox]{
   p {
     text-indent: 25px;
   }
+  &.special {
+    margin-bottom: 15px;
+  }
 }
 
 .step_img {

@@ -126,6 +126,8 @@ input[type=checkbox] {
 
 .my_list p {
   text-indent: 25px; }
+.my_list.special {
+  margin-bottom: 15px; }
 
 .step_img {
   display: block;
